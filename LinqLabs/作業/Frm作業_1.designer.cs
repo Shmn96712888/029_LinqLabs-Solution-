@@ -210,7 +210,7 @@ namespace MyHomeWork
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("新細明體", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(949, 261);
+            this.label3.Location = new System.Drawing.Point(663, 251);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(300, 20);
@@ -290,7 +290,7 @@ namespace MyHomeWork
             // 
             this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button13.ForeColor = System.Drawing.Color.Black;
-            this.button13.Location = new System.Drawing.Point(1405, 290);
+            this.button13.Location = new System.Drawing.Point(1119, 280);
             this.button13.Margin = new System.Windows.Forms.Padding(5);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(137, 42);
@@ -314,7 +314,7 @@ namespace MyHomeWork
             // 
             this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button12.ForeColor = System.Drawing.Color.Black;
-            this.button12.Location = new System.Drawing.Point(1256, 290);
+            this.button12.Location = new System.Drawing.Point(970, 280);
             this.button12.Margin = new System.Windows.Forms.Padding(5);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(137, 42);
@@ -337,7 +337,7 @@ namespace MyHomeWork
             // 
             this.textBox1.Font = new System.Drawing.Font("新細明體", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.textBox1.Location = new System.Drawing.Point(1056, 294);
+            this.textBox1.Location = new System.Drawing.Point(770, 284);
             this.textBox1.Margin = new System.Windows.Forms.Padding(5);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(180, 31);
@@ -349,7 +349,7 @@ namespace MyHomeWork
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("新細明體", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(937, 298);
+            this.label1.Location = new System.Drawing.Point(651, 288);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(93, 20);

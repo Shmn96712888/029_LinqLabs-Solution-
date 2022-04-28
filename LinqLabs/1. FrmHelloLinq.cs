@@ -206,9 +206,22 @@ namespace Starter
         {
             var q = from o in this.nwDataSet1.Orders
                     where o.OrderDate.Year == 1997
+                    orderby o.OrderDate descending
                     select o;
 
             this.dataGridView1.DataSource = q.ToList();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int[] nums = { 1, 2, 3, 4, 5,6,7,8,9,10 };
+
+            //var q = from n in nums
+            //        where n > 5
+            //        select n;
+
+           // IEnumerable<int> q = nums.Where(.......delegate.....).Select(....);
+
         }
     }
 }
