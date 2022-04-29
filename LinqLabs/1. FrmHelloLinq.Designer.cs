@@ -122,6 +122,7 @@
             this.button49.TabIndex = 61;
             this.button49.Text = "參考 / 匯入";
             this.button49.UseVisualStyleBackColor = false;
+            this.button49.Click += new System.EventHandler(this.button49_Click);
             // 
             // button4
             // 

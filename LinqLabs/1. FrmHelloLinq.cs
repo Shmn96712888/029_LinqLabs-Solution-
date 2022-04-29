@@ -223,5 +223,16 @@ namespace Starter
            // IEnumerable<int> q = nums.Where(.......delegate.....).Select(....);
 
         }
+
+        private void button49_Click(object sender, EventArgs e)
+        {
+//            #region 組件 System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+//            // C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll
+//            #endregion
+
+          
+
+//namespace System.Linq
+        }
     }
 }
