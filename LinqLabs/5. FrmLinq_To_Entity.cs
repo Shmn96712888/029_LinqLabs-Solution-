@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LinqLabs;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
+//entity data model 特色
+//1. App.config 連接字串
+//2. Package 套件下載, 參考 EntityFramework.dll, EntityFramework.SqlServer.dll
+//3. 導覽屬性 關聯
+
+//4. DataSet model 需要處理 DBNull; Entity Model  不需要處理 DBNull (DBNull 會被 ignore)
+//5. IQuerable<T> query 執行時會轉成 => T-SQL
 
 namespace Starter
 {
@@ -17,6 +26,15 @@ namespace Starter
             InitializeComponent();
         }
 
-      
+        private void button1_Click(object sender, EventArgs e)
+        {
+            NorthwindEntities dbContext = new NorthwindEntities();
+
+            var q = from p in dbContext.Products
+                    where p.UnitPrice > 30
+                    select p;
+
+           this.dataGridView1.DataSource =  q.ToList();
+        }
     }
 }

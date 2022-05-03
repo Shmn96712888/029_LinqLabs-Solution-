@@ -18,7 +18,7 @@ using System.Windows.Forms;
 //1. 泛型 (泛用方法)                                          (ex.  void SwapAnyType<T>(ref T a, ref T b)
 //2. 委派參數 Lambda Expression (匿名方法簡潔版)               (ex.  MyWhere(nums, n => n %2==0);
 //3. 回傳 Iterator                                            (ex.  MyIterator)
-//4. 擴充方法       
+//4. 擴充方法                                                  (ex. WordCount()  Chars(2))
 
 namespace Starter
 {
