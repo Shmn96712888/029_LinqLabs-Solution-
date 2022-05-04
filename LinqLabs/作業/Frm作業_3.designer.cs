@@ -245,7 +245,7 @@ namespace MyHomeWork
             // button10
             // 
             this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button10.Location = new System.Drawing.Point(12, 430);
+            this.button10.Location = new System.Drawing.Point(15, 434);
             this.button10.Margin = new System.Windows.Forms.Padding(5);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(506, 42);
@@ -334,7 +334,7 @@ namespace MyHomeWork
             // 
             this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button8.ForeColor = System.Drawing.Color.Black;
-            this.button8.Location = new System.Drawing.Point(9, 328);
+            this.button8.Location = new System.Drawing.Point(14, 330);
             this.button8.Margin = new System.Windows.Forms.Padding(5);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(506, 42);
@@ -368,7 +368,7 @@ namespace MyHomeWork
             // button15
             // 
             this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button15.Location = new System.Drawing.Point(12, 379);
+            this.button15.Location = new System.Drawing.Point(5, 382);
             this.button15.Margin = new System.Windows.Forms.Padding(5);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(506, 42);
