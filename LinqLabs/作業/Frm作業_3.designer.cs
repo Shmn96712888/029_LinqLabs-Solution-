@@ -278,7 +278,7 @@ namespace MyHomeWork
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.LimeGreen;
-            this.button9.Location = new System.Drawing.Point(8, 648);
+            this.button9.Location = new System.Drawing.Point(8, 646);
             this.button9.Margin = new System.Windows.Forms.Padding(5);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(538, 42);
@@ -300,7 +300,7 @@ namespace MyHomeWork
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.LimeGreen;
-            this.button7.Location = new System.Drawing.Point(8, 701);
+            this.button7.Location = new System.Drawing.Point(14, 698);
             this.button7.Margin = new System.Windows.Forms.Padding(5);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(538, 42);

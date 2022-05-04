@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.button37 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
@@ -45,7 +45,7 @@
             // 
             this.button37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button37.Location = new System.Drawing.Point(60, 131);
-            this.button37.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button37.Margin = new System.Windows.Forms.Padding(4);
             this.button37.Name = "button37";
             this.button37.Size = new System.Drawing.Size(375, 75);
             this.button37.TabIndex = 140;
@@ -57,7 +57,7 @@
             // 
             this.button6.ForeColor = System.Drawing.Color.Black;
             this.button6.Location = new System.Drawing.Point(60, 632);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(375, 75);
             this.button6.TabIndex = 136;
@@ -67,7 +67,7 @@
             // button35
             // 
             this.button35.Location = new System.Drawing.Point(60, 409);
-            this.button35.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button35.Margin = new System.Windows.Forms.Padding(4);
             this.button35.Name = "button35";
             this.button35.Size = new System.Drawing.Size(375, 75);
             this.button35.TabIndex = 139;
@@ -78,8 +78,8 @@
             // button34
             // 
             this.button34.ForeColor = System.Drawing.Color.Black;
-            this.button34.Location = new System.Drawing.Point(60, 550);
-            this.button34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button34.Location = new System.Drawing.Point(60, 523);
+            this.button34.Margin = new System.Windows.Forms.Padding(4);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(375, 75);
             this.button34.TabIndex = 138;
@@ -90,7 +90,7 @@
             // button33
             // 
             this.button33.Location = new System.Drawing.Point(60, 312);
-            this.button33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button33.Margin = new System.Windows.Forms.Padding(4);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(375, 75);
             this.button33.TabIndex = 137;
@@ -102,7 +102,7 @@
             // 
             this.button36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button36.Location = new System.Drawing.Point(60, 33);
-            this.button36.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button36.Margin = new System.Windows.Forms.Padding(4);
             this.button36.Name = "button36";
             this.button36.Size = new System.Drawing.Size(375, 75);
             this.button36.TabIndex = 141;
@@ -112,18 +112,18 @@
             // 
             // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(507, 33);
-            this.chart1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            chartArea3.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chart1.Legends.Add(legend3);
+            this.chart1.Location = new System.Drawing.Point(528, 312);
+            this.chart1.Margin = new System.Windows.Forms.Padding(4);
             this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(689, 568);
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chart1.Series.Add(series3);
+            this.chart1.Size = new System.Drawing.Size(689, 372);
             this.chart1.TabIndex = 142;
             this.chart1.Text = "chart1";
             // 
@@ -140,7 +140,7 @@
             this.Controls.Add(this.button34);
             this.Controls.Add(this.button33);
             this.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm考試";
             this.Text = "Frm考試";
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
